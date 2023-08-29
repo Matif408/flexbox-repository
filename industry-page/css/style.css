@@ -1,0 +1,168 @@
+/* Basic style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* header */
+.header{
+    /* width: 100%; */
+    height: 8rem;
+    /* background-color: yellowgreen; */
+    background-color: #fffdfd;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* social_linkbox */
+.social_link{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 0;
+}
+.social__icon{
+    padding: 1.3rem;
+}
+.icons{
+    color: #fff;
+    font-size: 1rem;
+}
+.number_gmail{
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    margin-left: 3rem;
+    
+}
+
+/* logo_part */
+.logo_link{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 0;
+    
+}
+
+.logo{
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    font-weight: 900;
+}
+
+.nav_links{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .8rem;
+    color: rgb(71, 68, 68);
+    font-weight: 900;
+    
+}
+
+/* introduction */
+
+.introduction{
+    /* background-color: yellowgreen; */
+    /* width: 100%; */
+    height: 55rem;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/construction.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+     /* background-color: yellowgreen; */
+     text-align: center;
+     width: 50rem;
+     color: #fff;
+    
+}
+
+.content_text{
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    opacity: .9;
+    margin-bottom: 1rem;
+}
+.heading_primary{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: orange;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* cards */
+.main{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card_box{
+   /* max-width: 60rem; */
+   /* background-color: yellow; */
+   display: flex;
+   /* justify-content: space-between; */
+   gap: 3rem;
+}
+.card{
+    width: 25rem;
+    text-align: center;
+}
+
+.icon_card{
+    color: gray;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading_secondary{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.description_card{
+    color: gray;
+    font-size: 1.2rem;
+    
+}
