@@ -1,0 +1,307 @@
+/* Basic reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+}
+
+/* Location */
+
+
+.location{
+    background-color: rgb(7, 7, 71);
+    display: flex;
+    padding: .5rem 6rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    display: inline-block;
+    padding: .5rem;
+}
+
+.icon_style{
+    color: rgb(250, 204, 20);
+    font-size: 1.6rem;
+}
+
+.location_text{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.email{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.timing{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* header */
+.header{
+    height: 14rem;
+    /* background-color: crimson; */
+    /* padding: 0 5rem ; */
+}
+
+.contact{
+    display: flex;
+    border-bottom: 1px solid rgb(194, 181, 181);
+    padding: 2rem 6rem ;
+}
+
+.logo{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(7, 7, 71);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.icon_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+    
+}
+.person{
+    display: inline-block;
+    padding: 1rem;
+}
+.person_icon{
+    font-size: 3rem;
+    color: rgb(250, 204, 20);
+}
+
+
+
+.number_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 400;
+}
+.number{
+    font-weight: 900;
+    color:rgb(7, 7, 71);
+}
+.btn_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(7, 7, 71);
+    background-color: rgb(250, 204, 20);
+    display: inline-block;
+    padding: 0 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .2s;
+    
+}
+.btn:hover{
+    background-color: rgb(7, 7, 71);
+    color: #fff;
+}
+
+/* navlinks */
+.nav{
+    padding: .7rem 6rem;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.nav_box{
+    margin-left: -2.5rem;
+    margin-right: auto;
+}
+.navlinks{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(7, 7, 71);
+    padding: 1rem 3rem;
+    transition: all .2s;
+}
+.navlinks:hover,
+.active{
+    color: rgb(250, 204, 20);
+}
+
+.nav_icon{
+    display: inline-block;
+    padding: 1rem;
+}
+.navicon_style{
+    color:rgb(7, 7, 71);
+}
+
+/* main */
+.main{
+    min-height:45rem;
+    /* background-color: yellowgreen; */
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/pexels-photo-5088179.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 6rem;
+}
+.main_content{
+    /* background-color: yellow; */
+    max-width: 50rem;
+    padding-bottom: 6rem;
+}
+.main_heading{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.main_text{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.btn_main{
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(7, 7, 71);
+    background-color: rgb(250, 204, 20);
+    display: inline-block;
+    padding: 0 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .2s;
+    width: 25%;
+    height: 3rem;
+}
+.btn_main:hover{
+    background-color: rgb(7, 7, 71);
+    color: #fff;
+}
+
+
+/* description of content */
+.description{
+    /* background-color: yellowgreen; */
+    /* padding: 0 6rem; */
+    min-height: 15rem;
+    position: relative; 
+    
+}
+
+.description_box{
+    background-color: rgb(7, 7, 71);
+    border-radius: 1rem;
+    min-height: 20rem;
+    padding: 3rem 2rem;
+    width: 90%;
+    position: absolute;
+    left: 6rem;
+    top: -8rem; 
+    display: flex;
+    gap: 3.5rem;
+    
+}
+
+.description_text{
+   /* background-color: pink; */
+   flex: 0 0 18%;
+}
+
+.description_menu{
+    /* background-color: yellowgreen; */
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.para_text{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    /* padding-bottom: 1rem; */
+}
+
+.arrow{
+    background-color: gray;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow_icon{
+    font-size: 1rem;
+    color: #fff;
+}
+.education_type{
+    border-radius: 3px;
+    width: 13rem;
+    /* background-color: pink; */
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    flex-basis: 17%;
+}
+.edu_icon_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.edu_icon{
+    color: #fff;
+    font-size: 5.5rem;
+}
+.education_text{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+}
