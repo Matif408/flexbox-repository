@@ -1,0 +1,318 @@
+/* basic style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.25%;
+}
+body{
+    font-family: 'Lato' , sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+/* header */
+.header{
+    height: 6rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(204, 203, 203); */
+}
+.logo{
+    font-size: 2.2rem;
+    font-weight: bold;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    display: inline-block;
+    padding: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #000;
+}
+.btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    word-spacing: 1px;
+    transition: all .2s;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+/* stories section */
+.stories_photo{
+    height: 45rem;
+    /* background-color: yellow; */
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content{
+    flex-basis: 45%;
+    padding: 9rem;
+    background-color: #000;
+}
+  
+ 
+
+.photo{
+    /* flex: 1; */
+    flex-basis: 55%;
+}
+
+.heading{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+    
+}
+.text{
+    color: grey;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-right: 6rem;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+.btn2{
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1rem;
+    word-spacing: 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn_white{
+    color: #fff;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+/* story section */
+
+.story_section{
+    height: 45rem;
+    display: flex;
+}
+.content2{
+    flex-basis: 55%;
+}
+.story_content{
+    padding: 9rem;
+
+    flex: 1;
+}
+.story_heading{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+.btn_black{
+    color: #000;
+}
+
+/* card of story*/
+.story{
+    height: 35rem;
+    
+    /* background-color: yellow; */
+    
+    display: flex;
+}
+.story_type{
+    flex-basis: 25%;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/mountain.jpeg);
+    background-size: cover;
+    /* background-color: pink */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 3rem 3rem;
+
+}
+.card2{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/building.jpeg);
+    background-size: cover;
+}
+.card3{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/walk.webp);
+    background-size: cover;
+}
+.card4{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/architeture.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+.storytype_heading{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+.story_author{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.story_bar{
+    height: 1px;
+    background-color: #b4adad;
+    margin-bottom: 2rem;
+    
+}
+.btn_arrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story_btn{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.story_icon{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+/* features */
+.feature{
+    /* background-color: pink; */
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature_card{
+    width: 30rem;
+    /* background-color: yellow; */
+    /* padding-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature_card:not(:last-child){
+    margin-right: 2.5rem;
+}
+.feature_icon{
+    font-size: 5rem;
+    color: #000;
+    margin-bottom: 3rem;
+}
+.heading_feature{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+.feature_text{
+    color: #b4adad;
+    font-size: 1.4rem;
+    text-align: justify;
+    font-weight: 600;
+}
+
+/* footer */
+.footer{
+    background-color: #000;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 95rem;
+}
+.social_link{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: pink; */
+    margin-right: 7rem;
+}
+.footer_link{
+ /* background-color: pink; */
+    margin-right: auto;
+    height: 10rem;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+.copyright{
+    height: 10rem;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer_logo{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.footer_anchor{
+    display: inline-block;
+    padding: .3rem;
+}
+.footer_icon{
+    color: #fff;
+}
+.link_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.copyright_text{
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
