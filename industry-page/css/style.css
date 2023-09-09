@@ -1,0 +1,249 @@
+/* Basic style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+a {
+    display: inline-block;
+}
+
+/* header */
+.header{
+    /* width: 100%; */
+    height: 8rem;
+    /* background-color: yellowgreen; */
+    background-color: #fffdfd;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* social_linkbox */
+.social_link{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 600px) {
+    .social_link {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .social_linkbox {
+        align-self: flex-start;
+    }
+}
+
+.social__icon{
+    padding: 0 1.3rem;
+    align-self: flex-start;
+}
+.icons{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.number_gmail{
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    margin-left: 3rem;
+    
+}
+
+/* logo_part */
+.logo_link{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #fff;
+    
+}
+
+.logo{
+    font-size: 2.4rem;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+
+.nav_links{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    color: rgb(71, 68, 68);
+    font-weight: 500;
+    
+}
+
+/* introduction */
+
+.introduction{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 55rem;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/construction.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+     text-align: center;
+     color: #fff;
+    
+}
+
+.content_text{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.heading_primary{
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.description{
+    font-size: 1.6rem;
+    font-weight: 400;
+    max-width: 50rem;
+    margin: 0 auto 2rem;
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    background-color: rgb(225 130 12);
+    padding: 1.3rem 3rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media(max-width:900px){
+    .content_text{
+        font-size: 1.3rem;
+    }
+
+    .heading_primary{
+        font-size: 4rem;
+    }
+    .description{
+        font-size: 1.4rem;
+    }
+    .btn{
+        padding: 1rem;
+    }
+}
+
+@media(max-width:900px){
+    .content_text{
+        font-size: 1.1rem;
+    }
+
+    .heading_primary{
+        font-size: 3.5rem;
+    }
+    .description{
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: 1rem;
+    }
+}
+
+@media(max-width:413px){
+    .content_text{
+        font-size: 1rem;
+    }
+
+    .heading_primary{
+        font-size: 3rem;
+    }
+    .description{
+        font-size: 1.1rem;
+    }
+    .btn{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* cards */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;
+    
+}
+
+.card_box{
+   display: flex;
+   gap: 3rem;
+}
+.card{
+   max-width: 33rem;
+    text-align: center;
+    border: 1px solid #aaaaaa33;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.05);
+}
+@media(max-width:900px){
+    .card_box{
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+}
+
+@media(max-width:550px){
+    .card{
+      max-width: 100%;
+    }
+}
+
+.icon_card{
+    color: gray;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.heading_secondary{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+
+}
+.description_card{
+    color: gray;
+}
+
