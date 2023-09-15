@@ -9,7 +9,7 @@ html{
 }
 body{
     font-family: 'Lato' , sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 /* header */
@@ -22,18 +22,18 @@ body{
     /* border-bottom: 1px solid rgb(204, 203, 203); */
 }
 .logo{
-    font-size: 2.2rem;
-    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: 900;
     word-spacing: 1px;
     text-transform: uppercase;
 }
 .link{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: 1.6rem;
     display: inline-block;
     padding: 1.1rem;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 1px;
     color: #000;
 }
@@ -43,9 +43,9 @@ body{
     border: none;
     background-color: #000;
     color: #fff;
-    padding: 1rem 2.5rem;
+    padding: 1.2rem 2.4rem;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     word-spacing: 1px;
     transition: all .2s;
 }
@@ -81,7 +81,7 @@ body{
     
     color: #fff;
     text-transform: uppercase;
-    font-size: 3.6rem;
+    font-size: 4.5rem;
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 1.5rem;
@@ -89,7 +89,7 @@ body{
 }
 .text{
     color: grey;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: justify;
     padding-right: 6rem;
     line-height: 1.8rem;
@@ -100,7 +100,7 @@ body{
     border: none;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.6rem;
     word-spacing: 2px;
     cursor: pointer;
     font-weight: 600;
@@ -129,9 +129,9 @@ body{
 }
 .story_heading{
     text-transform: uppercase;
-    font-size: 3.6rem;
-    font-weight: 400;
-    letter-spacing: 2px;
+    font-size: 4.5rem;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
     margin-bottom: 1.5rem;
 }
 .btn_black{
@@ -176,7 +176,7 @@ body{
 }
 .storytype_heading{
     text-transform: capitalize;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: .5rem;
@@ -184,7 +184,7 @@ body{
 .story_author{
     color: #fff;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .story_bar{
     height: 1px;
@@ -202,14 +202,14 @@ body{
     border: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
     letter-spacing: 1px;
     cursor: pointer;
 }
 .story_icon{
     color: #fff;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 /* features */
 .feature{
@@ -233,20 +233,20 @@ body{
     margin-right: 2.5rem;
 }
 .feature_icon{
-    font-size: 5rem;
+    font-size: 6rem;
     color: #000;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 .heading_feature{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-transform: capitalize;
     margin-bottom: 1.5rem;
 }
 .feature_text{
     color: #b4adad;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: justify;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* footer */
@@ -263,7 +263,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   width: 95rem;
+    width: 95rem;
 }
 .social_link{
     height: 10rem;
@@ -292,13 +292,13 @@ body{
 }
 .footer_logo{
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
 }
 .footer_anchor{
     display: inline-block;
-    padding: .3rem;
+    padding: .5rem;
 }
 .footer_icon{
     color: #fff;
@@ -306,13 +306,13 @@ body{
 .link_item{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #fff;
     font-weight: 400;
     letter-spacing: 2px;
 }
 .copyright_text{
     color: gray;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
