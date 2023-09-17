@@ -1,0 +1,450 @@
+/* basic style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.25%;
+}
+body{
+    font-family: 'Lato' , sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+
+
+/* @media(max-width:1350px){
+    body{
+        font-size: 1.4rem;
+    }
+} */
+@media(max-width:900px){
+    html{
+        font-size: 50%;
+    }
+}
+
+
+
+/* header */
+.header{
+   
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(204, 203, 203); */
+    padding: 1rem 0;
+    padding-left: 2rem;
+}
+
+ @media(max-width:600px){
+    .header{
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+}
+@media(max-width:509px){
+    .nav{
+        order: 1;
+    }
+    
+} 
+.logo{
+    font-size: 2.5rem;
+    font-weight: 900;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+}
+.btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    word-spacing: 1px;
+    transition: all .2s;
+}
+.btn:hover{
+    transform: translateY(-3px);
+}
+/* stories section */
+.stories_photo{
+    min-height: 45rem;
+    /* background-color: yellow; */
+    display: flex;
+}
+@media(max-width:1250px){
+    .stories_photo{
+        flex-direction: column;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 43rem;
+}
+.content{
+    flex-basis: 45%;
+    padding: 9rem;
+    background-color: #000;
+}
+  
+ 
+
+.photo{
+    /* flex: 1; */
+    flex-basis: 55%;
+}
+
+.heading{
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+    
+}
+@media(max-width:500px){
+    .heading{
+        font-size: 3rem;
+    }
+}
+.text{
+    color: grey;
+    font-size: 1.6rem;
+    text-align: justify;
+    padding-right: 6rem;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+.btn2{
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    word-spacing: 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn_white{
+    color: #fff;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* story section */
+
+.story_section{
+   min-height: 45rem;
+    display: flex;
+}
+@media(max-width:1250px){
+    .story_section{
+        flex-direction: column;
+
+    }
+    .story_content{
+        order: -1;
+    }
+}
+
+.content2{
+    flex-basis: 55%;
+}
+.story_content{
+    padding: 9rem;
+
+    flex: 1;
+}
+.story_heading{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    margin-bottom: 1.5rem;
+}
+@media(max-width:500px){
+    .story_heading{
+        font-size: 3rem;
+    }
+}
+.btn_black{
+    color: #000;
+}
+
+/* card of story*/
+.story{
+    /* height: 35rem; */
+    /* max-width: 100%; */
+    /* background-color: yellow; */
+    
+    display: flex;
+}
+.story_type{
+    flex-basis: 25%;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/mountain.jpeg);
+    background-size: cover;
+    /* background-color: pink */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25rem 5rem 5rem 5rem ;
+
+}
+@media(max-width:900px){
+    .story{
+        flex-wrap: wrap;
+        /* height: 80rem; */
+        /* align-content: space-evenly; */
+    }
+    .story_type{
+        flex-basis: 50%;
+
+    }
+}
+@media(max-width:600px){
+    
+    .story_type{
+        flex-basis: 100%;
+    
+    }
+}
+
+.card2{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/building.jpeg);
+    background-size: cover;
+}
+.card3{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/walk.webp);
+    background-size: cover;
+}
+.card4{
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../image/architeture.jpeg);
+    background-size: cover;
+    background-position: 50%;
+}
+.storytype_heading{
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+.story_author{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.story_bar{
+    height: 1px;
+    background-color: #b4adad;
+    margin-bottom: 2rem;
+    
+}
+.btn_arrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story_btn{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.story_icon{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+}
+/* features */
+.feature{
+    /* background-color: pink; */
+    /* height: 40rem; */
+    padding: 10rem 0rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media(max-width:900px){
+    .feature{
+        flex-wrap: wrap;
+        /* align-content: space-around; */
+    }
+}
+.feature_card{
+    width: 30rem;
+    /* background-color: yellow; */
+    /* padding-top: 5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media(max-width:900px){
+    .feature_card{
+        width: 34rem;
+        margin-bottom: 5rem;
+
+    }
+    
+}
+@media(max-width:600px){
+    .feature_card{
+        width: 100%;
+    }
+}
+
+.feature_card:not(:last-child){
+    margin-right: 2.5rem;
+}
+.feature_icon{
+    font-size: 6rem;
+    color: #000;
+    margin-bottom: 5rem;
+}
+.heading_feature{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    
+}
+.feature_text{
+    color: #b4adad;
+    font-size: 1.6rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+/* footer */
+.footer{
+    background-color: #000;
+    /* height: 25rem; */
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/* @media(max-width:500px){
+    .footer{
+        flex-direction: column;
+    }
+} */
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95rem;
+}
+@media(max-width:600px){
+    .footer_container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+}
+.social_link{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: pink; */
+    margin-right: 7rem;
+}
+@media (max-width:600px){
+    .social_link{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+.footer_link{
+ /* background-color: pink; */
+    margin-right: auto;
+    height: 10rem;
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media(max-width:600px){
+    .footer_link{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+.copyright{
+    height: 10rem;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+@media(max-width:600px){
+    .copyright{
+        align-items: center;
+    }
+}
+.footer_logo{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.footer_anchor{
+    display: inline-block;
+    padding: .5rem;
+}
+.footer_icon{
+    color: #fff;
+}
+.link_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.copyright_text{
+    color: gray;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
